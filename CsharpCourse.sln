@@ -37,19 +37,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic", "Generic\Generic.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON", "JSON\JSON.csproj", "{101A8D9D-7BB4-4D4B-A8A9-29900255B188}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{FF3A3727-60A7-421C-BD9C-C069FDA1CCBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lists", "Lists\Lists.csproj", "{FF3A3727-60A7-421C-BD9C-C069FDA1CCBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForEach", "ForEach\ForEach.csproj", "{50575BA6-B774-4D71-B387-AA1422973EDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForEach", "ForEach\ForEach.csproj", "{50575BA6-B774-4D71-B387-AA1422973EDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListCommonMethods", "ListCommonMethods\ListCommonMethods.csproj", "{B5380AE2-E557-48D4-982B-1D6843712087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListCommonMethods", "ListCommonMethods\ListCommonMethods.csproj", "{B5380AE2-E557-48D4-982B-1D6843712087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposAnonimos", "TiposAnonimos\TiposAnonimos.csproj", "{9C6D036D-7F49-4700-B305-929273926824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposAnonimos", "TiposAnonimos\TiposAnonimos.csproj", "{9C6D036D-7F49-4700-B305-929273926824}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuplas", "Tuplas\Tuplas.csproj", "{F819D8F1-77B9-44ED-9BD7-0BDE71698D27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuplas", "Tuplas\Tuplas.csproj", "{F819D8F1-77B9-44ED-9BD7-0BDE71698D27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\Excepciones.csproj", "{85046EA7-ADE9-4FC1-977E-3A345295D026}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excepciones", "Excepciones\Excepciones.csproj", "{85046EA7-ADE9-4FC1-977E-3A345295D026}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecpcionesPersonalizadas", "ExecpcionesPersonalizadas\ExecpcionesPersonalizadas.csproj", "{743A7141-A75B-4EBB-AE74-5CB2860376A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExecpcionesPersonalizadas", "ExecpcionesPersonalizadas\ExecpcionesPersonalizadas.csproj", "{743A7141-A75B-4EBB-AE74-5CB2860376A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{ABF30D22-4D13-4A3D-AF4B-2A07E0AE105B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Join", "Linq_Join\Linq_Join.csproj", "{5BAE952A-5D22-4695-9E80-4D51F1FBC2DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +157,14 @@ Global
 		{743A7141-A75B-4EBB-AE74-5CB2860376A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{743A7141-A75B-4EBB-AE74-5CB2860376A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{743A7141-A75B-4EBB-AE74-5CB2860376A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF30D22-4D13-4A3D-AF4B-2A07E0AE105B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF30D22-4D13-4A3D-AF4B-2A07E0AE105B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF30D22-4D13-4A3D-AF4B-2A07E0AE105B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF30D22-4D13-4A3D-AF4B-2A07E0AE105B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BAE952A-5D22-4695-9E80-4D51F1FBC2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BAE952A-5D22-4695-9E80-4D51F1FBC2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BAE952A-5D22-4695-9E80-4D51F1FBC2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BAE952A-5D22-4695-9E80-4D51F1FBC2DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
